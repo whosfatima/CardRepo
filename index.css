@@ -4,5 +4,21 @@
     box-sizing: border-box;
 }
 body {
-    background-color: tan;
+    background-color: rgb(48, 48, 75);
+    font-family: sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap; */
+}
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow:column wrap;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 200px auto;
+    /* justify-content: center;
+    align-items: center; */
 }
